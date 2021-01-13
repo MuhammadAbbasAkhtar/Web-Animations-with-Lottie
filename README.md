@@ -15,3 +15,10 @@ import lottieWeb from "https://cdn.skypack.dev/lottie-web";
 
 # Canvas vs SVG
 Animations can also be rendered on canvas element. However, canvas doesn’t render quite as nicely and doesnt support scaling
+
+### Example
+I'm using this [animated play/pause control icon](https://icons8.com/free-animated-icons/pause) from [Icons8](https://icons8.com/).
+
+Here loop and autoplay is set to true
+
+![](https://raw.githubusercontent.com/MuhammadAbbasAkhtar/Web-Animations-with-Lottie/main/zVtNYzTs.gif)
