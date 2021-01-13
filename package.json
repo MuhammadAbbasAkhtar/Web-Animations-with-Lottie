@@ -1,0 +1,37 @@
+{
+  "name": "web-animations-with-lottie",
+  "version": "1.0.0",
+  "description": "Bodymovin is a plugin for Adobe After Effects that exports animations as JSON, and Lottie is the library that renders them natively on mobile and on the web\n Icons8 has a lot of free animated icons in JSON which we can use.\nLets render some amazing animations!",
+  "keywords": [
+    "icon animation",
+    "lottie",
+    "web animation",
+    "icons8"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@emotion/react": "11.1.4",
+    "@emotion/styled": "11.0.0",
+    "@material-ui/core": "5.0.0-alpha.19",
+    "@material-ui/icons": "4.11.2",
+    "lottie-web": "5.7.5",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

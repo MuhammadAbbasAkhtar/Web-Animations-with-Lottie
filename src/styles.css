@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+#iconBox {
+
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-column-gap: 1%;
+  grid-row-gap: 50px;
+  grid-template-columns: repeat(auto-fill,10%);
+  grid-template-rows: repeat(auto-fill,20%);
+  padding-bottom: 56px;
+
+}
+*:not(svg), *:not(h5 > *){
+  user-select: none;
+  cursor: not-allowed;
+  pointer-events: none;
+}
+
+svg *, h5{
+  cursor: pointer;
+  pointer-events:initial
+}
+
+#iconBox svg{
+  position: relative;
+  padding: 0px 10px 0;
+  transform: scale(0.5);
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: flex-start;
+  align-items: center;
+  border: 5px solid #9e9e9e00;
+  box-sizing: border-box;
+  border-radius: 8px;
+  transition: all .2s linear;
+
+  height: 89px !important;
+  width: 114px !important;
+}
+.Mui-error{
+  outline: 1px solid red;
+  outline-offset: 5px;
+}
